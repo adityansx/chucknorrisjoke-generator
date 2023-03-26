@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+#flex-container {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    background: whitesmoke;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 8px;
+    padding: 1.25rem;
+    width: clamp(200px, 60%, 60vw);
+}
+#get-joke {
+    font-weight: 500;
+    background-color: antiquewhite;
+    margin: 1rem 0;
+    border: 2px solid rgb(235, 218, 197);
+    border-radius: 0.4rem;
+    height: 2rem;
+    width: fit-content;
+    transition: all ease-out 250ms;
+}
+
+#get-joke:hover {
+    transform: scale(1.05);
+}
